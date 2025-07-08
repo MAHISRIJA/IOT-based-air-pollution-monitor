@@ -1,2 +1,3 @@
 # IOT-based-air-pollution-monitor
 IoT based air pollution monitor system using firebase realtime-database
+This project uses an ESP32 microcontroller to build a real-time air quality monitoring system integrated with cloud storage. It also employs gas sensors (MQ2, MQ6, and MQ135) to detect harmful gases and a DHT11 sensor to measure temperature and humidity. The ESP32’s built-in Wi-Fi is used to transmit sensor data to a Firebase Realtime Database, enabling remote access and storage of readings.A 16x2 I2C LCD displays live data locally, while a buzzer alerts users when gas levels exceed predefined safety thresholds. This system provides an affordable, scalable, and efficient IoT-based solution for continuous environmental monitoring and alerting.
